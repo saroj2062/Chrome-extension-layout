@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+    .social-link-profile-container{
+      border: 2px solid black;
+        width: 30vw;
+        text-align: center;
+        padding: 30px;
+        background-color: hsl(0, 0%, 12%);
+        border-radius:10px;
+   
+    }
+    .profile-image img{
+      border-radius: 50%;
+      width: 100px;
+    }
+    h1{
+      font-size: 1.5rem;
+    }
+    .user-location,.user-hobbey{
+      padding: 15px;
+
+    }
+    .user-location{
+      color: greenyellow;
+    }
+    .btm-group{
+      display: flex;
+      flex-direction: column;
+      gap: 15px 0px;
+      padding: 15px;
+      
+    }
+    button{
+      padding: 10px;
+      border-radius: 10px;
+      border: none;
+      outline: none;
+      background-color:  hsl(0, 0%, 20%);
+      color: white;
+    }
+    button:hover{
+      background-color: hsl(75, 94%, 57%);
+      cursor: pointer;
+  
+      transition-delay: 0.2s;
+      color: black;
+    }
+    .attribution{
+     font-size: 1.1rem;
+      text-align: center;
+    }
+    .attribution a{
+      text-decoration: none;
+
+    }
+   @media (max-width:600px){
+    .social-link-profile-container{
+    width: 80vw;
+    }}
+
+    @media (min-width:601px) and (max-width:1400px)
+    {
+      .social-link-profile-container{
+    width: 40vw;
+    }
+    }
+
+   
+   @media (min-width:1225px) and (max-width:1400px){
+    .social-link-profile-container{
+    width: 30vw;
+    }
+    
+
+   }
+  </style>
+ 
+</head>
+<body>
+  <div class="social-link-profile-container">
+
+   <div class="profile-image">
+    <img src="avatar-jessica.jpeg" alt="PRofile Image">
+   </div>
+    <h1>Jessica Randall</h1>
+ <h4 class="user-location">London, United Kingdom</h4> 
+ <p class="user-hobbey"> "Front-end developer and avid reader."</p>
+
+ <div class="btm-group">
+   <button>GitHub</button>
+   <button>  Frontend Mentor</button>
+    <button>LinkedIn</button>
+    <button> Twitter</button>
+    <button>  Instagram</button>
+  
+ </div>
+
+</div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="">Saroj pandey</a>.
+  </div>
+</body>
+</html>

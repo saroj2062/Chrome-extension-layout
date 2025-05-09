@@ -36,7 +36,7 @@
         "isActive": false
     },
     {
-        "logo": "./assets/images/logo-markup-notes.svg",
+        "logo": "./assets/logo-markup-notes.svg",
         "name": "Markup Notes",
         "description": "Enables annotation and notes directly onto webpages for collaborative debugging.",
         "isActive": true

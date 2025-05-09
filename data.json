@@ -42,13 +42,13 @@
         "isActive": true
     },
     {
-        "logo": "./assets/images/logo-grid-guides.svg",
+        "logo": "./assets/logo-grid-guides.svg",
         "name": "GridGuides",
         "description": "Overlay customizable grids and alignment guides on any webpage.",
         "isActive": false
     },
     {
-        "logo": "./assets/images/logo-palette-picker.svg",
+        "logo": "./assets/logo-palette-picker.svg",
         "name": "Palette Picker",
         "description": "Instantly extracts color palettes from any webpage.",
         "isActive": true

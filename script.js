@@ -45,7 +45,7 @@ const visibilityState = ()=>{
   if( document.body.classList.contains("light"))
   {
     document.body.classList.remove("light");
-    visibleBtm.src="assets/images/icon-sun.svg"
+    visibleBtm.src="assets/icon-sun.svg"
 
   }
   else{

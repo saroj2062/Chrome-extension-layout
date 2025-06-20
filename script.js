@@ -45,12 +45,12 @@ const visibilityState = ()=>{
   if( document.body.classList.contains("light"))
   {
     document.body.classList.remove("light");
-    visibleBtm.src="./assets/icon-sun.svg"
+    visibleBtm.src="./assets/icon-sun.svg";
 
   }
   else{
      document.body.classList.add("light");
-    visibleBtm.src="./assets/icon-moon.svg"
+    visibleBtm.src="./assets/icon-moon.svg";
   }
 }
 // creating extension

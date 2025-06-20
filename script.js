@@ -50,7 +50,7 @@ const visibilityState = ()=>{
   }
   else{
      document.body.classList.add("light");
-    visibleBtm.src="assets/images/icon-moon.svg"
+    visibleBtm.src="assets/icon-moon.svg"
   }
 }
 // creating extension
